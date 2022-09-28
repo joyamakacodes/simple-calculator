@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-weight:900;
+}
+.container{
+    background-color: rgba(194, 43, 106, 0.897);
+    height: 40rem;
+    padding-top:  4.8rem;
+
+}
+.calculator{
+    width: 15rem;
+    height:30rem;
+    background-color: rgb(243, 187, 187);
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 5px;
+    position: relative;
+    box-shadow: 8px 5px 5px 10px rgba(114, 36, 80, 0.897);
+}
+.result{
+    height: 8rem;
+    text-align: right;
+}
+button{
+    border: none;
+    border-radius: 50%;
+}
+.decimal{
+    background-color: rgb(243, 187, 187);
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+
+}
+.number:hover{
+    background-color: rgba(194, 43, 106, 0.897);
+    color: white;
+    font-size: 30px;
+}
+.mul{
+    background-color: rgba(114, 36, 80, 0.897);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.mul:hover{
+    background-color: rgb(207, 146, 146);
+    font-size: 30px;
+}
+.times{
+    background-color: rgb(187, 22, 22);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.times:hover{
+    background-color: rgb(255, 100, 100);
+    font-size: 30px;
+}
+.min{
+    background-color: rgb(221, 12, 82);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.min:hover{
+    background-color: rgb(236, 135, 169);
+    font-size: 30px;
+}
+.plus{
+    background-color: rgb(255, 100, 100);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.plus:hover{
+    background-color: rgb(187, 22, 22);
+    font-size: 30px;
+}
+.equal{
+    background-color: rgb(207, 146, 146);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.equal:hover{
+    background-color: rgba(114, 36, 80, 0.897);
+    font-size: 30px;
+}
+.number{
+    background-color: rgb(243, 187, 187);
+    font-weight: bolder;
+}
+.history{
+    margin-top: 10px;
+    height: 50px;
+    color: rgb(122, 120, 117);
+    font-weight: bolder;
+}
+.answer{
+    font-size: 30px;
+}
+#answer-value{
+    overflow: hidden;
+}
+
+.font {
+    font-size: 15px;
+}
